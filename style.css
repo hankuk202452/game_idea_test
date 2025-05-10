@@ -15,11 +15,11 @@ button {
   transition: 0.3s;
 }
 
-button: foucus {
+button:focus {
   outline: 0;
 }
 
-button: hover {
+button:hover {
   background-color: rgba(0, 79, 255, 0.9);
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 79, 255, 0.6);
