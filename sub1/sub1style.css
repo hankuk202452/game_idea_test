@@ -13,6 +13,7 @@ body {
     z-index: 999;
     font-size: 15px;
     text-align: center;
+    border-radius: 6px;
 }
 
 #door {
@@ -83,4 +84,3 @@ body {
     bottom: -220px;
     right: -700px;
 }
-
