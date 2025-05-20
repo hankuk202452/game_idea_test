@@ -2,7 +2,7 @@ input {
   display: none;
 }
 
-.text1 p {
+.gametitle p {
   position: fixed;
   top: 40%;
   left: 50%;
@@ -15,23 +15,49 @@ input {
   padding: 50px;
   text-align: center;
   z-index: 0;
+  border-radius: 20px;
 }
 
-
-.text2 .label_content {
+.start a {
   position: fixed;
-  top: 65%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: blueviolet;
   color: aliceblue;
-  padding: 5px;
-  font-size: 23px;
+  padding: 7px;
+  text-decoration-line: none;
+  font-size: 22px;
   z-index: 0;
+  border-radius: 6px;
 }
+
+.label_content {
+  position: fixed;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: blueviolet;
+  color: aliceblue;
+  padding: 7px;
+  font-size: 22px;
+  z-index: 0;
+  border-radius: 6px;
+}
+
+
+.label_content input:checked + label {
+  display: none;
+}
+
+
+.start a:hover {
+  cursor: pointer;
+  background: red;
+}
+
 
 .label_content:hover, label:hover {
   cursor: pointer;
   background: red;
-  transition: 0.3s;
 }
