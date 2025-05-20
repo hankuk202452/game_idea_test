@@ -1,0 +1,86 @@
+body {
+    background: rgb(209, 209, 209);
+}
+
+.back a {
+    position: fixed;
+    top: 2px;
+    left: 2px;
+    padding: 5px;
+    background: rgb(132, 0, 0);
+    color: white;
+    text-decoration-line: none;
+    z-index: 999;
+    font-size: 15px;
+    text-align: center;
+}
+
+#door {
+    position: fixed;
+    top: 40px;
+    left: 230px;
+    z-index: 0;
+}
+
+#lock {
+    position: fixed;
+    top: 60px;
+    left: 400px;
+    z-index: 1;
+}
+
+#desk {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transform: translate(-30px, 30px);
+    z-index: 0;
+}
+
+#computer {
+    position: fixed;
+    top: 350px;
+    left: -10px;
+    z-index: 1;
+}
+
+#chair {
+    display: block;
+    position: fixed;
+    left: -110px;
+    bottom: 0;
+    z-index: 2;
+}
+
+#lectern {
+    position: fixed;
+    top: 60px;
+    right: 120px;
+    z-index: 0;
+}
+
+#screen {
+    width: 600px;
+    height: 270px;
+    background-color: rgb(29, 56, 255);
+    position: fixed;
+    left: 38%;
+    border: 2px solid black;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    line-height: 270px;
+    font-size: 40px;
+}
+
+#shine {
+    width: 1000px;
+    height: 1200px;
+    background-color: rgb(255, 123, 0, 0.2);
+    transform: rotate(20deg);
+    z-index: 1;
+    position: fixed;
+    bottom: -220px;
+    right: -700px;
+}
+

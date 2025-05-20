@@ -1,0 +1,53 @@
+.back a:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+#door img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#lock img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#desk img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#computer:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#chair:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#lectern img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#screen:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#shine:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
