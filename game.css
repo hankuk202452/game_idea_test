@@ -12,6 +12,9 @@
 }
 
 /* test1 */
+/* test2
+추가 주석이지롱 */
+/* test2 2*/
 .label_content input:checked + label + div {
   display: block;
   z-index: 2;
